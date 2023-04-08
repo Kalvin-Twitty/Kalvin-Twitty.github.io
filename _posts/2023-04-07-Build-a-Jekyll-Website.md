@@ -12,7 +12,7 @@ tags: jekyll website github gitlab
 
  Some useful links-
  
- https://www.youtube.com/watch?v=F8iOU1ci19Q
+ [Techno-Tim's Video](https://www.youtube.com/watch?v=F8iOU1ci19Q)
 
  This is a link to technotims video
 
@@ -26,7 +26,7 @@ He does an excellent job walking you through the steps.
 ## Getting Started
 Before getting into everything you'll need to update and install some dependencies.
 
-```Bash
+```bash
 sudo apt update
 sudo apt install ruby-full build-essential zlib1g-dev git
 ```
@@ -36,7 +36,7 @@ This checks your machine for updates then you use `apt install` to `install` rub
 
 To avoid installing RubyGems packages as the root user:
 
-```Bash
+```bash
 echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
@@ -45,14 +45,14 @@ source ~/.bashrc
 
 Install Jekyll `bundler`
 
-```Bash
+```bash
 gem install jekyll bundler
 ```
 
 ### Creating the Site based on Chirpy Starter
 Before your able to clone your repositories you'll need to enable ssh on your github account simply
 
-```Bash
+```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 #enter your email
 ```
@@ -82,11 +82,15 @@ cat ~/.ssh/id_ed25519.pub
 
 Go ahead you can clone my repo or go right to the chripy-starter repo on GitHub
 
+When you clone the repo make sure you name it "your-github-username-".github.io
+
+![Alt text](/assets/2023-04-07-Build-a-Jekyll-Website%20IMG/Cloning%20Repo.png)
+
 Links to both:
 
-https://github.com/cotes2020/chirpy-starter
+[Starter Repo from Chirpy](https://github.com/cotes2020/chirpy-starter)
 
-https://github.com/Kalvin-Twitty/Kalvin-Twitty.github.io
+[My repo](https://github.com/Kalvin-Twitty/Kalvin-Twitty.github.io)
 
 So to see what your site looks like without any configs to the `_config.yml`
 
@@ -164,9 +168,23 @@ Like so
 
 All your post files are done in Markdown which is pretty easy to pickup really fast
 
-but if you need some more information about it
+If you run into an error where you can see your Images on your local side but your deploy is failing/not seeing the images displayed all you need to do is remove the "`..`" in the path of your images
+
+
+![Alt text](/assets/2023-04-07-Build-a-Jekyll-Website%20IMG/Right%20Path.png)
+
+The top one is the correct pathing at least that is what worked for me. 
+
+but if you need some more information about it:
 
 See more post formatting rules on the [Jekyll site](https://jekyllrb.com/docs/posts/)
+
+## GitHub Pages
+
+Before you can finilize and deploy any of your posts you need to set up your repository 
+
+
+## Last Steps
 
 When your done writing a post you can either use the CLI to deploy changes and commit and push them up to github or you can you use VS Code Workspaces like i do and commit and push them with a simple comment. 
 
@@ -191,4 +209,6 @@ To do it in VS Code all you need to do is go to the Source Control Section
 
 Press Commit and Push 
 
-It will open a seperate file asking you to make a comment just comment something and then `Ctrl + S` and then once you close the comment file it will push it to GitHub
+![Alt text](/assets/2023-04-07-Build-a-Jekyll-Website%20IMG/Soruce%20Control.png)
+
+It will open a seperate file asking you to make a comment just comment something and then `Ctrl + S` and then once you close the comment file it will push it to GitHub.
