@@ -1,6 +1,6 @@
 ---
 title: Windows WSL2 Terminal Config aka OhMyZsh
-date: 2022-05-23 02:51:00 -500
+date: 2023-04-05 02:51:00 -500
 categories: [homelab, windows]
 tags: [homelab,wsl,terminal,windows,zsh,linux]
 ---

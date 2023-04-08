@@ -13,7 +13,7 @@ tags: jekyll website github gitlab
  Some useful links-
  
 
- This is a link to technotims video
+ [TechnoTim's Video](https://www.youtube.com/watch?v=F8iOU1ci19Q)
 
 He does an excellent job walking you through the steps.
 
@@ -91,6 +91,11 @@ git clone git@<YOUR-USER-NAME>/<YOUR-REPO-NAME>.git
 
 Links to both:
 
+[My-Repo](https://github.com/Kalvin-Twitty/Kalvin-Twitty.github.io)
+
+[Chirpy-Starter](https://github.com/cotes2020/chirpy-starter)
+
+[Chirpy-Main-Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 
 So to see what your site looks like without any configs to the `_config.yml`
 
