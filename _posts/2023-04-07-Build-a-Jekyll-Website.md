@@ -84,6 +84,10 @@ Go ahead you can clone my repo or go right to the chripy-starter repo on GitHub
 
 When you clone the repo make sure you name it "your-github-username-".github.io
 
+```bash
+git clone git@<YOUR-USER-NAME>/<YOUR-REPO-NAME>.git
+```
+
 ![Alt text](/assets/2023-04-07-Build-a-Jekyll-Website%20IMG/Cloning%20Repo.png)
 
 Links to both:
@@ -93,6 +97,8 @@ Links to both:
 [My repo](https://github.com/Kalvin-Twitty/Kalvin-Twitty.github.io)
 
 So to see what your site looks like without any configs to the `_config.yml`
+
+
 
 you can simple do
 
