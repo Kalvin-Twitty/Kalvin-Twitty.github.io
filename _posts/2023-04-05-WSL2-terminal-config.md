@@ -87,3 +87,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 If you see this then boom its installed and you will have a cleaner and colorful UNIX experience 
 
 If you don't see this then you might have missed a step
+
+All Done
