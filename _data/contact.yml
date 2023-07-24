@@ -2,11 +2,11 @@
 
 - type: github
   icon: 'fab fa-github'
-  icon: "https://github.com/Kalvin-Twitty"
+  url: "https://github.com/Kalvin-Twitty"
 
 - type: twitter
   icon: 'fab fa-twitter'
-  icon: "https://twitter.com/Synvii_"
+  url: "https://twitter.com/Synvii_"
 -
   type: youtube
   icon: 'fab fa-youtube'
