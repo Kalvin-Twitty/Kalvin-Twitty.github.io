@@ -11,10 +11,6 @@ As a home lab enthusiast, I often find myself collecting notes and details about
 
 To get started with this documentation website, you can simply clone this repository to your local machine and customize it with your own information.
 
-## Contributing
-
-Since this documentation website is intended for personal use only, contributions are not accepted at this time.
-
 ## Contact
 
 If you have any questions or concerns about this documentation website, please feel free to contact me. 
