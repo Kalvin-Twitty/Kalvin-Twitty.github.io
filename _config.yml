@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://ibb.co/1qKCsNJ
+avatar: assets/FF4 Profile Logo.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
