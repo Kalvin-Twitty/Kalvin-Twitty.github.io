@@ -3,6 +3,10 @@ title: Hello HomeLab
 date: 2022-05-23 01:00:00 -500
 categories: [homelab, hardware]
 tags: [homelab,websites]
+pin: true
+math: true
+mermaid: true
+image:![Alt text](</assets/About Me Section/Real Personal Rig Cropped.jpg>)
 ---
 
 # Welcome
