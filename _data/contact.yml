@@ -1,9 +1,11 @@
 #  The contact options.
 
 - type: github
+  icon: 'fab fa-github'
   icon: "https://github.com/Kalvin-Twitty"
 
 - type: twitter
+  icon: 'fab fa-twitter'
   icon: "https://twitter.com/Synvii_"
 -
   type: youtube

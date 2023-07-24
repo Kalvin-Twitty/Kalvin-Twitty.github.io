@@ -4,6 +4,8 @@ title: How to Build a Raspberry-Pi Cluster Computer
 date: 2023-04-11 05:30:00 -0500
 categories: self-hosted raspberrypi cluster
 tags: raspberrypi homelab self-hosted
+image:
+  path: /assets/About Me Section/Raspberry PI Cluster.jpg
 ---
 
 # How to Build a Raspberry Pi Cluster Computer

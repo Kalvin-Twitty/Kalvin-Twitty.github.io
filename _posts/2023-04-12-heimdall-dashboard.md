@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Meet Heimdall, Your Homelab Application Dashboard123"
+title: "Meet Heimdall, Your Homelab Application Dashboard"
 date: 2023-04-12 02:00:00 -0500
 categories: self-hosted
 tags: homelab heimdall self-hosted truenas-scale docker
