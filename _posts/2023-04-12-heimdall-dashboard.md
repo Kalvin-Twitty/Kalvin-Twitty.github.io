@@ -4,6 +4,8 @@ title: "Meet Heimdall, Your Homelab Application Dashboard"
 date: 2023-04-12 02:00:00 -0500
 categories: self-hosted
 tags: homelab heimdall self-hosted truenas-scale docker
+image:
+  path: /assets/2023-04-12-heimdall-dashboard/heimdall.png
 ---
 
 # Installing Heimdall Dashboard using Docker
@@ -25,20 +27,20 @@ To run Heimdall using Docker, you'll need to create a Docker Compose file. This 
 Create a new file called `docker-compose.yml` and add the following content:
 
 ```yml
-version: '3'
+version: "3"
 services:
 heimdall:
 image: linuxserver/heimdall
 container_name: heimdall
 ports:
-- '80:80'
+  - "80:80"
 environment:
-- PUID=<UID>
-- PGID=<GID>
-- TZ=<timezone>
+  - PUID=<UID>
+  - PGID=<GID>
+  - TZ=<timezone>
 volumes:
-- '/path/to/heimdall/config:/config'
-- '/path/to/heimdall/data:/data'
+  - "/path/to/heimdall/config:/config"
+  - "/path/to/heimdall/data:/data"
 ```
 
 In this file, replace `<UID>` and `<GID>` with the user ID and group ID that you want to use for the Heimdall container. You can find these values by running the `id` command in your terminal. Also, replace `<timezone>` with your timezone.
@@ -52,7 +54,6 @@ Once you've created the Docker Compose file, you can start the Heimdall containe
 ```bash
 docker-compose up -d
 ```
-
 
 This command will start the Heimdall container in detached mode, which means it will run in the background. You can then access the Heimdall dashboard by opening a web browser and navigating to `http://localhost`.
 
