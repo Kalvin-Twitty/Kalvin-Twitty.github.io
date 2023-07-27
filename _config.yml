@@ -98,7 +98,7 @@ comments:
   giscus:
     repo: Kalvin-Twitty/Kalvin-Twitty.github.io
     repo_id: R_kgDOJT67tQ
-    category: Comments
+    category: General
     category_id: DIC_kwDOJT67tc4CYJ7b
     mapping: pathname # optional, default to 'pathname'
     input_position: bottom # optional, default to 'bottom'
