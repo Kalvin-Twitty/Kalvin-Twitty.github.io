@@ -86,7 +86,7 @@ avatar: assets/FF4 Profile Logo.png
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -98,7 +98,7 @@ comments:
   giscus:
     repo: Kalvin-Twitty/Kalvin-Twitty.github.io
     repo_id: R_kgDOJT67tQ
-    category: General
+    category: Comments
     category_id: DIC_kwDOJT67tc4CYJ7b
     mapping: pathname # optional, default to 'pathname'
     input_position: bottom # optional, default to 'bottom'
