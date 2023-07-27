@@ -71,4 +71,4 @@ To set up an A record for your Heimdall dashboard, follow these steps:
 
 4. Wait for the DNS changes to propagate, which can take anywhere from a few minutes to several hours depending on your DNS provider.
 
-Once the DNS changes have propagated, you should be able to access your Heimdall dashboard using the custom domain name you set up in the A record. Simply open a web browser and navigate to `http://heimdall.yourdomain.com` (
+Once the DNS changes have propagated, you should be able to access your Heimdall dashboard using the custom domain name you set up in the A record. Simply open a web browser and navigate to `http://heimdall.yourdomain.com` ez pz
