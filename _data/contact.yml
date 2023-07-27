@@ -1,16 +1,17 @@
 #  The contact options.
 
 - type: github
-  icon: 'fab fa-github'
+  icon: "fab fa-github"
   url: "https://github.com/Kalvin-Twitty"
-
 - type: twitter
-  icon: 'fab fa-twitter'
+  icon: "fab fa-twitter"
   url: "https://twitter.com/Synvii_"
--
-  type: youtube
-  icon: 'fab fa-youtube'
-  url: 'https://www.youtube.com/channel/UC9H7E_FAkk7zgHxXIBxrEIA'
+- type: youtube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/channel/UC9H7E_FAkk7zgHxXIBxrEIA"
+- type: twitch
+  icon: "fab fa-twitch"
+  url: "https://www.twitch.tv/synvii"
 #- type: email
 #  icon: "fas fa-envelope"
 #  noblank: true # open link in current tab
