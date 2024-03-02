@@ -1,5 +1,5 @@
 ---
-title: Hello HomeLab
+title: Building, Deploying, and Hosting a Static Web Page with Jekyll
 date: 2024-03-01 01:00:00 -500
 categories: [homelab, hardware, software, website]
 tags: [homelab,websites,jekyll,software,]
